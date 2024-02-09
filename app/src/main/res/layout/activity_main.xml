@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Hari Mohan Rai"
+        android:layout_margin="15dp"
+        android:textSize="30dp"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="150dp" android:layout_height="70dp"
+        android:text="Upload"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textColor="#FF0000"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Download"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textColor="#FFF000"
+        android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/hmrai"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    <TextView
+        android:layout_width= "match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text= "Graduated from Vinayaka Mission’s University in 2009, and received Master of Engineering in Electrical Engineering (Control System) from Government Engineering College, Jabalpur in 2012(Gold Medalist).
+        Completed Ph.D from Indian Institute of Technology, Dhanbad (ISM Dhanbad) in Department of Electric Engineering. Currently working as an Assistant Professor Research in School of Soft Computing at Gachon University, South Korea.
+        Served as an Associate Professor in Dronachrya Group of Institutions, Greater Noida, from 2021 to 2023. Worked as an Assistant Professor in the Department of Electronics and Communication Engineering in Krishna Engineering College, Ghaziabad from 2015 to 2021.
+        Served as an Assistant Professor in the Department of Electronics and Communication Engineering, Dronacharya College of Engineering, Gurgaon, India from 2013 to 2015. Published research papers in many reputed international Journals and conferences.
+        Reviewer of many Refereed journals like Elsevier, IET, IEEE, IJE, springers, Willey, IMDP, and many more."
+        android:padding="20sp"
+        android:layout_margin="10dp"
+        android:justificationMode="inter_word" />/>
+    </ScrollView>
+
+
+</LinearLayout>
